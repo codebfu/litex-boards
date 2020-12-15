@@ -25,14 +25,14 @@ _io = [
     ("user_led", 7, Pins("L3"),  IOStandard("3.3-V LVTTL")),
 
     # Button
-    ("key", 0, Pins("J15"), IOStandard("3.3-V LVTTL")),
-    ("key", 1, Pins("E1"),  IOStandard("3.3-V LVTTL")),
+    ("user_key", 0, Pins("J15"), IOStandard("3.3-V LVTTL")),
+    ("user_key", 1, Pins("E1"),  IOStandard("3.3-V LVTTL")),
 
     # Switches
-    ("sw", 0, Pins("M1"),  IOStandard("3.3-V LVTTL")),
-    ("sw", 1, Pins("T8"),  IOStandard("3.3-V LVTTL")),
-    ("sw", 2, Pins("B9"),  IOStandard("3.3-V LVTTL")),
-    ("sw", 3, Pins("M15"), IOStandard("3.3-V LVTTL")),
+    ("user_sw", 0, Pins("M1"),  IOStandard("3.3-V LVTTL")),
+    ("user_sw", 1, Pins("T8"),  IOStandard("3.3-V LVTTL")),
+    ("user_sw", 2, Pins("B9"),  IOStandard("3.3-V LVTTL")),
+    ("user_sw", 3, Pins("M15"), IOStandard("3.3-V LVTTL")),
 
     # Serial
     ("serial", 0,
